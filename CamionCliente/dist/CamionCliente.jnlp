@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CamionCliente.jnlp">
+  <information>
+    <title>CamionCliente</title>
+    <vendor>Carlos</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CamionCliente.jar" size="6647" download="eager" />
+    <jar href="lib\Almacen.jar" size="3031" download="eager" />
+    <jar href="lib\DatosAlmacen.jar" size="1854" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CamionCliente" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="camioncliente.CamionCliente"  name="CamionCliente" />
+  <update check="always"/>
+</jnlp>
